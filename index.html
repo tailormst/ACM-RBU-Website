@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ACM RBU Student Chapter - Advancing Computing as a Science & Profession">
   <meta name="keywords" content="ACM, RBU, Student Chapter, Computing, Technology, Programming">
-  <title>ACM RBU Student Chapter | Advancing Computing</title>
+  <title>ACM RBU Student Chapter | Association of Computing Machinery</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,10 +67,10 @@
       <div class="hero-left">
         <div class="hero-badge">RBU Student chapter</div>
 
-        <h1 class="hero-title">
-          <span class="typewriter" data-text="Advancing Computing as a">Advancing Computing as a</span>
-          <span class="highlight gradient-text">Science & Profession</span>
-        </h1>
+       <h1 class="hero-title">
+  Association for Computing Machinery
+</h1>
+
 
         <p class="hero-description">
           Join the largest community of computing professionals and students at RBU.
@@ -78,11 +78,12 @@
           that shape the future of technology.
         </p>
 
-        <div class="hero-cta">
-          <button class="btn-primary">Become a Member</button>
-          <button class="btn-secondary">Explore Events</button>
-        </div>
-      </div>
+     <button class="btn-secondary"
+  onclick="document.getElementById('events').scrollIntoView({ behavior: 'smooth' })">
+  Explore Events
+</button>
+
+
 
       <!-- Right Side - Digital Sphere -->
       <div class="hero-right">
@@ -215,289 +216,181 @@
         </p>
       </div>
 
-      <!-- Filter Tabs -->
-      <div class="event-filters fade-in-section">
-        <button class="filter-btn active" data-filter="all">All Events</button>
-        <button class="filter-btn" data-filter="workshop">Workshops</button>
-        <button class="filter-btn" data-filter="hackathon">Hackathons</button>
-        <button class="filter-btn" data-filter="seminar">Seminars</button>
-        <button class="filter-btn" data-filter="competition">Competitions</button>
+      <!-- ==================== EVENTS SECTION ==================== -->
+<section id="events" class="events-section">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-header fade-in-section">
+      <div class="section-subtitle">Events</div>
+      <h2 class="section-title">Event <span class="gradient-text">Showcase</span></h2>
+    </div>
+
+    <!-- Tabs -->
+<div class="event-filters fade-in-section">
+  <button class="filter-btn active" data-filter="past">Past Events</button>
+  <button class="filter-btn" data-filter="upcoming">Upcoming Events</button>
+</div>
+
+<!-- Timeline -->
+<div class="timeline-container">
+  <div class="timeline-line"></div>
+
+  <div class="timeline-items">
+<!-- ===== Past Events ===== -->
+<div class="timeline-item visible" data-type="past">
+  <div class="timeline-node">
+    <div class="node-dot"></div>
+  </div>
+
+  <div class="event-card glass">
+    <h3 class="event-title">Past Events</h3>
+
+    <!-- Each past event as separate card -->
+    <div class="past-event-card glass" style="margin-top:1rem;">
+      <div class="event-header">
+        <h4 class="event-title">Technofrenzy 2.0</h4>
+      </div>
+      <p class="event-description">Flagship ACM RBU technical fest.</p>
+      <button class="btn-register"
+              data-title="Technofrenzy"
+              data-image="3.png"
+              data-description="Technofrenzy 2.0 was a huge success, showcasing participants' talent and innovation.
+The first round, Roll and Rally, tested quick problem-solving in a fast-paced team activity.
+Prompted Perfection encouraged creative and technical expression through AI, featuring interactive art and game prototypes.
+Algorithm Assembly focused on teamwork, communication, and solving algorithmic problems collaboratively.
+The event fostered friendly competition, learning, and skill development among first- and second-year students.
+It provided a platform to showcase abilities, exchange knowledge, and build connections with the ACM chapter.">
+        View Details
+      </button>
+    </div>
+
+    <div class="past-event-card glass" style="margin-top:1rem;">
+      <div class="event-header">
+        <h4 class="event-title">Arceon Magazine</h4>
+      </div>
+      <p class="event-description">Official ACM RBU magazine.</p>
+      <button class="btn-register"
+              data-title="Arceon Magazine"
+              data-image="images/arceon.jpg"
+              data-description="Official ACM RBU magazine.">
+        View Details
+      </button>
+    </div>
+
+    <div class="past-event-card glass" style="margin-top:1rem;">
+      <div class="event-header">
+        <h4 class="event-title">JugNgp</h4>
+      </div>
+      <p class="event-description">Java User Group community meetup.</p>
+      <button class="btn-register"
+              data-title="JugNgp"
+              data-image="images/jug.jpg"
+              data-description="Java User Group community meetup.">
+        View Details
+      </button>
+    </div>
+
+   <div class="past-event-card glass" style="margin-top:1rem;">
+  <div class="event-header">
+    <h4 class="event-title">Robotics Workshop</h4>
+  </div>
+  <p class="event-description">Hands-on robotics workshop.</p>
+  <button class="btn-register"
+          data-title="Robotics Workshop"
+          data-image="1.png"
+          data-description="The workshop showcased DoxPro Robotics Pvt Ltd’s technical expertise, engaging participants with robotics concepts and problem-solving.
+DoxPro, IIT-Bombay’s Official Training Partner for Nagpur/Pune, has completed 2041+ projects across 153 colleges and mentored 1,566 students.
+Founder & CEO Priyam Sharma holds an M.Tech (IoT & AI) and an MBA, recognized as a top 5000 EdTech CEO.
+The session covered robot structure, electronics, and software, including chassis materials, motor selection, wheel types, and Arduino-based circuits.
+Students learned about autonomous vs manually operated robots and prototyping using breadboards.
+The event had 600 registrations, with 300 students attending due to hall capacity.">
+    View Details
+  </button>
+</div>
+
+
+    <div class="past-event-card glass" style="margin-top:1rem;">
+      <div class="event-header">
+        <h4 class="event-title">Winter School</h4>
+      </div>
+      <p class="event-description">Winter training school on tech.</p>
+      <button class="btn-register"
+              data-title="Winter School"
+              data-image="4.jpg"
+              data-description="Shri Ramdeobaba University, with ACM India and ACM Nagpur Chapter, organized the Winter School from 15–24 Dec 2025 on digital twin technologies.
+Participants attended expert-led sessions on system modeling, simulation, decision-making, and hands-on tools like Vensim and AnyLogic.
+The program included an industry visit to Persistent Systems and covered advanced topics such as optimisation, control systems, and state estimation.
+The Winter School bridged academia and industry, enhancing participants’ skills and practical knowledge in digital engineering.">
+        View Details
+      </button>
+    </div>
+
+    <div class="past-event-card glass" style="margin-top:1rem;">
+      <div class="event-header">
+        <h4 class="event-title">Crib Meetup</h4>
+      </div>
+      <p class="event-description">Community networking meetup.</p>
+      <button class="btn-register"
+              data-title="Crib Meetup"
+              data-image="5.png"
+              data-description="The meetup at Crib Cafe brought people together for engaging conversations, networking, and idea-sharing in a relaxed, friendly atmosphere over coffee.">
+        View Details
+      </button>
+    </div>
+
+  </div>
+</div>
+
+    
+    <!-- ===== Upcoming Event ===== -->
+    <div class="timeline-item hidden" data-type="upcoming">
+      <div class="timeline-node">
+        <div class="date-badge">
+          <span class="date-day">15</span>
+          <span class="date-month">MAR</span>
+        </div>
+        <div class="node-dot"></div>
       </div>
 
-      <!-- Timeline -->
-      <div class="timeline-container">
-        <div class="timeline-line"></div>
-
-        <div class="timeline-items">
-
-          <!-- Event 1 - Workshop -->
-          <div class="timeline-item" data-category="workshop">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">15</span>
-                <span class="date-month">JAN</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Workshop</div>
-                  <h3 class="event-title">Web Development Bootcamp</h3>
-                </div>
-                <span class="event-status status-upcoming">Upcoming</span>
-              </div>
-
-              <p class="event-description">
-                Master the fundamentals of modern web development with hands-on projects using React,
-                Node.js, and MongoDB. Perfect for beginners and intermediate developers.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>10:00 AM - 4:00 PM</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>CS Lab, Block A</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>50 seats</span>
-                </div>
-              </div>
-
-              <button class="btn-register">Register Now</button>
-            </div>
+      <div class="event-card glass">
+        <div class="event-header">
+          <div>
+            <div class="event-category">Flagship</div>
+            <h3 class="event-title">Technofrenzy 2026</h3>
           </div>
-
-          <!-- Event 2 - Hackathon -->
-          <div class="timeline-item" data-category="hackathon">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">22</span>
-                <span class="date-month">JAN</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Hackathon</div>
-                  <h3 class="event-title">CodeFest 2026</h3>
-                </div>
-                <span class="event-status status-live">Live Now</span>
-              </div>
-
-              <p class="event-description">
-                24-hour coding marathon to build innovative solutions for real-world problems.
-                Team up with fellow developers and compete for exciting prizes worth ₹50,000.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>24 Hours</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>Main Auditorium</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>100 seats</span>
-                </div>
-              </div>
-
-              <button class="btn-register">Join Now</button>
-            </div>
-          </div>
-
-          <!-- Event 3 - Seminar -->
-          <div class="timeline-item" data-category="seminar">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">05</span>
-                <span class="date-month">FEB</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Seminar</div>
-                  <h3 class="event-title">AI & Machine Learning in Industry</h3>
-                </div>
-                <span class="event-status status-upcoming">Upcoming</span>
-              </div>
-
-              <p class="event-description">
-                Industry expert talk on the current trends and applications of AI/ML in various sectors.
-                Learn about career opportunities and cutting-edge research in artificial intelligence.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>3:00 PM - 5:00 PM</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>Seminar Hall</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>200 seats</span>
-                </div>
-              </div>
-
-              <button class="btn-register">Register Now</button>
-            </div>
-          </div>
-
-          <!-- Event 4 - Competition -->
-          <div class="timeline-item" data-category="competition">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">12</span>
-                <span class="date-month">FEB</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Competition</div>
-                  <h3 class="event-title">Data Science Challenge</h3>
-                </div>
-                <span class="event-status status-upcoming">Upcoming</span>
-              </div>
-
-              <p class="event-description">
-                Showcase your data analysis and visualization skills. Solve complex datasets and
-                present insights to industry judges. Cash prizes for top 3 winners.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>9:00 AM - 6:00 PM</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>Innovation Lab</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>60 seats</span>
-                </div>
-              </div>
-
-              <button class="btn-register">Register Now</button>
-            </div>
-          </div>
-
-          <!-- Event 5 - Workshop -->
-          <div class="timeline-item" data-category="workshop">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">20</span>
-                <span class="date-month">FEB</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Workshop</div>
-                  <h3 class="event-title">Cloud Computing with AWS</h3>
-                </div>
-                <span class="event-status status-upcoming">Upcoming</span>
-              </div>
-
-              <p class="event-description">
-                Get hands-on experience with Amazon Web Services. Learn to deploy applications,
-                manage databases, and implement cloud security best practices.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>11:00 AM - 3:00 PM</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>CS Lab, Block B</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>40 seats</span>
-                </div>
-              </div>
-
-              <button class="btn-register">Register Now</button>
-            </div>
-          </div>
-
-          <!-- Event 6 - Past Event -->
-          <div class="timeline-item" data-category="seminar">
-            <div class="timeline-node">
-              <div class="date-badge">
-                <span class="date-day">28</span>
-                <span class="date-month">DEC</span>
-              </div>
-              <div class="node-dot"></div>
-            </div>
-
-            <div class="event-card glass">
-              <div class="event-header">
-                <div>
-                  <div class="event-category">Seminar</div>
-                  <h3 class="event-title">Blockchain Technology Fundamentals</h3>
-                </div>
-                <span class="event-status status-completed">Completed</span>
-              </div>
-
-              <p class="event-description">
-                An introductory session on blockchain technology, cryptocurrencies, and decentralized
-                applications. Featuring guest speaker from a leading fintech company.
-              </p>
-
-              <div class="event-meta">
-                <div class="event-meta-item">
-                  <i data-lucide="clock"></i>
-                  <span>2:00 PM - 4:00 PM</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="map-pin"></i>
-                  <span>Conference Hall</span>
-                </div>
-                <div class="event-meta-item">
-                  <i data-lucide="users"></i>
-                  <span>150 attended</span>
-                </div>
-              </div>
-
-              <button class="btn-register" disabled style="opacity: 0.5; cursor: not-allowed;">Event Ended</button>
-            </div>
-          </div>
-
+          <span class="event-status status-upcoming">Upcoming</span>
         </div>
 
-        <!-- Empty State (Hidden by default) -->
-        <div class="events-empty" style="display: none;">
-          <i data-lucide="calendar-x"></i>
-          <p>No events found in this category</p>
-        </div>
+        <p class="event-description">
+          Technofrenzy 2026 brings hackathons, workshops, competitions and industry talks.
+        </p>
+
+        <button class="btn-register"
+                data-title="Technofrenzy 2026"
+                data-image="images/techno2026.jpg"
+                data-description="National level technical festival.">
+          View Details
+        </button>
       </div>
     </div>
-  </section>
+
+  </div>
+</div>
+
+<!-- ===== Modal ===== -->
+<div id="eventModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center;">
+  <div class="glass" style="max-width:600px; padding:2rem; position:relative;">
+    <button onclick="closeEventModal()" style="position:absolute; top:10px; right:15px; background:none; border:none; color:white; font-size:24px;">×</button>
+    <h3 id="modalTitle" style="color:white; margin-bottom:1rem;"></h3>
+    <img id="modalImage" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+    <p id="modalDescription" style="text-align:left; color:rgba(255,255,255,0.8);"></p>
+  </div>
+</div>
+
+<script src="events.js"></script>
+
+        </section>
 
   <!-- ==================== TEAM SECTION ==================== -->
   <section id="team" class="team-section">
@@ -1339,21 +1232,14 @@
             Join us in shaping the future of technology through innovation, collaboration, and continuous learning.
           </p>
           <div class="social-links">
-            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/acm-rbu-student-chapter/posts/?feedView=all" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
               <i data-lucide="linkedin"></i>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
-              <i data-lucide="twitter"></i>
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
-              <i data-lucide="github"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            
+            <a href="https://www.instagram.com/acm_rbu/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
               <i data-lucide="instagram"></i>
             </a>
-            <a href="https://discord.com" target="_blank" rel="noopener" class="social-link" aria-label="Discord">
-              <i data-lucide="message-circle"></i>
-            </a>
+            
           </div>
         </div>
 
@@ -1369,17 +1255,7 @@
           </ul>
         </div>
 
-        <!-- Column 3: Resources -->
-        <div class="footer-column">
-          <h3>Resources</h3>
-          <ul class="footer-links">
-            <li><a href="#"><i data-lucide="chevron-right"></i>ACM Digital Library</a></li>
-            <li><a href="#"><i data-lucide="chevron-right"></i>Past Events</a></li>
-            <li><a href="#"><i data-lucide="chevron-right"></i>Gallery</a></li>
-            <li><a href="#"><i data-lucide="chevron-right"></i>Blog</a></li>
-            <li><a href="#"><i data-lucide="chevron-right"></i>Career Portal</a></li>
-          </ul>
-        </div>
+        
 
         <!-- Column 4: Contact -->
         <div class="footer-column">
@@ -1387,15 +1263,15 @@
           <div class="contact-info">
             <div class="contact-item">
               <i data-lucide="map-pin"></i>
-              <span>RBU Campus, Computer Science Block, Room 205</span>
+              <span>RBU Campus, Computer Science Block</span>
             </div>
             <div class="contact-item">
               <i data-lucide="mail"></i>
-              <a href="mailto:acm@rbu.edu">acm@rbu.edu</a>
+              <a href="mailto:info@rbustudentchapter.acm.org">info@rbustudentchapter.acm.org</a>
             </div>
             <div class="contact-item">
               <i data-lucide="phone"></i>
-              <a href="tel:+911234567890">+91 123 456 7890</a>
+              <a href="tel:+9198106 27267">+91 98106 27267</a>
             </div>
           </div>
 

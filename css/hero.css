@@ -1,15 +1,13 @@
 /* ====================
    HERO SECTION STYLES
    ==================== */
-
-.hero-section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  padding-top: 100px;
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color:rgba(56, 189, 248, 0.6)
 }
+
+
 
 /* Particle Canvas Background */
 #particles-canvas {
