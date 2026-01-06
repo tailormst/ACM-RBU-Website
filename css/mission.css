@@ -3,6 +3,11 @@
    ==================== */
 
 /* Mission Section */
+
+.about-text p {
+  color: rgba(255, 255, 255, 1);
+}
+
 .mission-section {
   padding: var(--spacing-xl) 0;
   position: relative;
@@ -14,16 +19,17 @@
 }
 
 .section-subtitle {
-  font-size: var(--font-size-sm);
+  font-size: 2.25rem;
   color: var(--electric-blue);
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
+
 .section-title {
-  font-size: var(--font-size-2xl);
+  font-size: 2rem;
   font-weight: 800;
   color: var(--white);
   margin-bottom: 1rem;
@@ -31,7 +37,7 @@
 
 .section-description {
   font-size: var(--font-size-md);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.8;
@@ -124,7 +130,7 @@
 
 .feature-description {
   font-size: var(--font-size-sm);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   line-height: 1.8;
   text-align: center;
 }
@@ -190,42 +196,12 @@
 
 .about-text p {
   font-size: var(--font-size-md);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   line-height: 2;
   margin-bottom: 1rem;
 }
 
-/* Statistics Bar */
-.statistics-bar {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  padding: 3rem 0;
-  border-top: 1px solid rgba(56, 189, 248, 0.2);
-}
 
-.stat-item {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 3.5rem;
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--electric-blue), var(--sky-blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.stat-label {
-  font-size: var(--font-size-sm);
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
 /* Count-up Animation */
 @keyframes countUp {
@@ -313,4 +289,9 @@
 
 .feature-card:nth-child(3) {
   transition-delay: 0.3s;
+}
+
+
+.content{
+
 }

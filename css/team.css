@@ -45,7 +45,7 @@
 
 .row-subtitle {
   font-size: var(--font-size-sm);
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
   margin-top: 1rem;
 }
 
@@ -125,7 +125,7 @@
 
 .member-card:hover .member-image-container {
   transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 20px 40px rgba(56, 189, 248, 0.4);
+ box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
 }
 
 .lead-row .member-card:hover .member-image-container {
@@ -163,6 +163,7 @@
 .member-card:hover .member-overlay {
   opacity: 1;
   transform: translateY(0);
+   box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
 }
 
 .social-icon {
@@ -221,7 +222,7 @@
 
 .member-department {
   font-size: var(--font-size-xs);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 
 /* Bio Modal */
@@ -332,7 +333,7 @@
 }
 
 .modal-body p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   line-height: 1.8;
   font-size: var(--font-size-sm);
 }

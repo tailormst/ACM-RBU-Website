@@ -1,15 +1,23 @@
 /* ====================
    HERO SECTION STYLES
    ==================== */
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
 
-.hero-section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  padding-top: 100px;
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #9ddcff 45%,
+    #38bdf8 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+ 
+
+
 
 /* Particle Canvas Background */
 #particles-canvas {
@@ -83,7 +91,7 @@
 
 .hero-description {
   font-size: var(--font-size-md);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   line-height: 1.8;
   margin-bottom: 2.5rem;
   animation: fadeInUp 1s ease;

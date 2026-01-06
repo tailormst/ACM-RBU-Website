@@ -106,21 +106,6 @@ class TeamSection {
       `;
     }
     
-    if (twitter) {
-      socialContainer.innerHTML += `
-        <a href="${twitter}" target="_blank" rel="noopener" class="social-icon">
-          <i data-lucide="twitter"></i>
-        </a>
-      `;
-    }
-    
-    if (github) {
-      socialContainer.innerHTML += `
-        <a href="${github}" target="_blank" rel="noopener" class="social-icon">
-          <i data-lucide="github"></i>
-        </a>
-      `;
-    }
     
     // Reinitialize Lucide icons
     if (typeof lucide !== 'undefined') {

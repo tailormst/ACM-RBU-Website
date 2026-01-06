@@ -39,19 +39,15 @@
   transform: scale(1.05);
 }
 
-.logo-icon {
-  width: 40px;
+.logo-img {
   height: 40px;
-  background: linear-gradient(135deg, var(--electric-blue), var(--sky-blue));
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 1.25rem;
-  color: var(--deep-navy);
-  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+  width: 40px;        
+  border-radius: 50%; 
+  object-fit: cover; 
+  background: white;  
 }
+
+
 
 /* Navigation Links */
 .navbar-links {
