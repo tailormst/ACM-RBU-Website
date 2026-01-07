@@ -59,56 +59,61 @@
   </nav>
 
   <!-- ==================== HERO SECTION ==================== -->
-  <section id="home" class="hero-section">
-    <canvas id="particles-canvas"></canvas>
+  <section class="hero-section">
+  <!-- Particle background -->
+  <canvas id="particles-canvas"></canvas>
 
-    <div class="container hero-container">
-      <!-- Left Side - Content -->
-      <div class="hero-left">
-        <div class="hero-badge">RBU Student chapter</div>
+  <div class="hero-container">
 
-       <h1 class="hero-title">
-  Association for Computing Machinery   (2025-26)
-</h1>
+    <!-- LEFT SIDE -->
+    <div class="hero-left">
 
+      <span class="hero-badge">RBU ACM Student Chapter</span>
 
-        <p class="hero-description">
+      <h1 class="hero-title">
+        Association for </br>
+        Computing Machinery
+        <span class="highlight">(2025–26)</span>
+      </h1>
+
+      <p class="hero-description">
         The largest community of computing professionals and students at RBU.
-          Engage in cutting-edge workshops, hackathons, and networking opportunities
-          that shape the future of technology.
-        </p>
+        Engage in cutting-edge workshops, hackathons, and networking opportunities
+        that shape the future of technology.
+      </p>
 
-     <button class="btn-secondary"
-  onclick="document.getElementById('events').scrollIntoView({ behavior: 'smooth' })">
-  Explore Events
-</button>
+      <div class="hero-cta">
+        <a href="#events" class="btn-primary">Explore Events</a>
+      </div>
 
+    </div>
 
+    <!-- RIGHT SIDE -->
+    <div class="hero-right">
 
-      <!-- Right Side - Digital Sphere -->
-      <div class="hero-right">
-        <div class="digital-sphere">
-          <div class="sphere-container">
-            <div class="sphere-ring"></div>
-            <div class="sphere-ring"></div>
-            <div class="sphere-ring"></div>
-            <div class="sphere-node"></div>
-            <div class="sphere-node"></div>
-            <div class="sphere-node"></div>
-            <div class="sphere-node"></div>
-          </div>
+      <div class="digital-sphere">
+        <div class="sphere-container">
+
+          <!-- Rings -->
+          <div class="sphere-ring"></div>
+          <div class="sphere-ring"></div>
+          <div class="sphere-ring"></div>
+
+          <!-- Nodes -->
+          <div class="sphere-node"></div>
+          <div class="sphere-node"></div>
+          <div class="sphere-node"></div>
+          <div class="sphere-node"></div>
+
         </div>
       </div>
+
     </div>
 
-    <!-- Scroll Indicator -->
-    <div class="scroll-indicator">
-      <span class="scroll-text">SCROLL</span>
-      <div class="mouse-icon">
-        <div class="mouse-wheel"></div>
-      </div>
-    </div>
-  </section>
+  </div>
+
+</section>
+
 
   <!-- ==================== MISSION SECTION ==================== -->
   <section id="mission" class="mission-section">
@@ -207,14 +212,6 @@
   <section id="events" class="events-section">
     <div class="container">
       <!-- Section Header -->
-      <div class="section-header fade-in-section">
-        <div class="section-subtitle">Upcoming Events</div>
-        <h2 class="section-title">Event <span class="gradient-text">Calendar</span></h2>
-        <p class="section-description">
-          Join us for exciting workshops, hackathons, and seminars designed to enhance your skills
-          and expand your network in the tech community.
-        </p>
-      </div>
 
       <!-- ==================== EVENTS SECTION ==================== -->
 <section id="events" class="events-section">
@@ -223,14 +220,26 @@
     <!-- Section Header -->
     <div class="section-header fade-in-section">
       <div class="section-subtitle">Events</div>
+      <div class="section-header fade-in-section">
+        <p class="section-description">
+          Join us for exciting workshops, hackathons, and seminars designed to enhance your skills
+          and expand your network in the tech community.
+        </p>
+      </div>
+    </div>
+
+    
+<div class="section-header fade-in-section">
+
       <h2 class="section-title">Event <span class="gradient-text">Showcase</span></h2>
     </div>
 
     <!-- Tabs -->
 <div class="event-filters fade-in-section">
-  <button class="filter-btn active" data-filter="past">Past Events</button>
-  <button class="filter-btn" data-filter="upcoming">Upcoming Events</button>
+  <button class="filter-btn" data-filter="past">Past Events</button>
+  <button class="filter-btn active" data-filter="upcoming">Upcoming Events</button>
 </div>
+
 
 <!-- Timeline -->
 <div class="timeline-container">
@@ -238,7 +247,7 @@
 
   <div class="timeline-items">
 <!-- ===== Past Events ===== -->
-<div class="timeline-item visible" data-type="past">
+<div class="timeline-item hidden" data-type="past">
   <div class="timeline-node">
     <div class="node-dot"></div>
   </div>
@@ -338,11 +347,11 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
 
     
     <!-- ===== Upcoming Event ===== -->
-    <div class="timeline-item hidden" data-type="upcoming">
+    <div class="timeline-item visible" data-type="upcoming">
       <div class="timeline-node">
         <div class="date-badge">
-          <span class="date-day">15</span>
-          <span class="date-month">MAR</span>
+          <span class="date-day">14</span>
+          <span class="date-month">January</span>
         </div>
         <div class="node-dot"></div>
       </div>
@@ -391,7 +400,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
     <div class="container">
       <!-- Section Header -->
       <div class="section-header fade-in-section">
-        <div class="section-subtitle">Meet Our Team</div>
+        <h1><div class="section-subtitle">Meet Our Team</div></h1>
         <h2 class="section-title">The People Behind <span class="gradient-text">ACM RBU</span></h2>
         <p class="section-description">
           Our dedicated team of passionate individuals working together to build a thriving tech community.
@@ -423,7 +432,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Prathamesh Ghodmare </h4>
               <p class="member-role"> Vice President</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
 
@@ -444,7 +453,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Anuj parwal </h4>
               <p class="member-role">Secretary</p>
-              <p class="member-department">Computer Science and AIML</p>
+              <p class="member-department">AIML</p>
             </div>
           </div>
 
@@ -465,28 +474,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Arya Shamka</h4>
               <p class="member-role"> Joint Secretary</p>
-              <p class="member-department">Computer Science and Data Science</p>
-            </div>
-          </div>
-
-          <!-- Web Operational Lead-->
-          <div class="member-card"
-            data-bio="Overseeing digital infrastructure and web presence. Full-stack developer with expertise in React and Node.js."
-            data-linkedin="https://www.linkedin.com/in/mohammed-tailor-002968288">
-            <div class="member-image-container">
-              <img src="Imgs/Mohammed Tailor.jpg"
-                alt="Mohammed Tailor" class="member-image">
-              <div class="member-overlay">
-                <div class="social-icon" data-link="https://www.linkedin.com/in/mohammed-tailor-002968288">
-                  <i data-lucide="linkedin"></i>
-                </div>
-              
-              </div>
-            </div>
-            <div class="member-info">
-              <h4 class="member-name">Mohammed Tailor</h4>
-              <p class="member-role">Web Operational Lead</p>
-              <p class="member-department">Computer Science and AIML</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
 
@@ -507,10 +495,31 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Sarthak Rathi</h4>
               <p class="member-role">Executive Head</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
-        </div>
+
+      <!-- Web Operational Lead-->
+          <div class="member-card"
+            data-bio="Overseeing digital infrastructure and web presence. Full-stack developer with expertise in React and Node.js."
+            data-linkedin="https://www.linkedin.com/in/mohammed-tailor-002968288">
+            <div class="member-image-container">
+              <img src="Imgs/Mohammed Tailor.jpg"
+                alt="Mohammed Tailor" class="member-image">
+              <div class="member-overlay">
+                <div class="social-icon" data-link="https://www.linkedin.com/in/mohammed-tailor-002968288">
+                  <i data-lucide="linkedin"></i>
+                </div>
+              
+              </div>
+            </div>
+            <div class="member-info">
+              <h4 class="member-name">Mohammed Tailor</h4>
+              <p class="member-role">Web Operational Lead</p>
+              <p class="member-department">AIML</p>
+            </div>
+          </div>
+          </div>
       </div>
 
       <!-- ROW 2: TECHNICAL TEAM -->
@@ -537,7 +546,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Ramharsh Dandekar </h4>
               <p class="member-role">Technical Lead</p>
-              <p class="member-department">Computer Science and AIML</p>
+              <p class="member-department">AIML</p>
             </div>
           </div>
 
@@ -556,7 +565,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Aditya Kayasth </h4>
               <p class="member-role">Techical Co-Lead</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
         </div>
@@ -585,7 +594,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Priyal Khandelwal</h4>
               <p class="member-role">Event Lead</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
           <!--Joint Event Lead-->
@@ -604,7 +613,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Anish Hedau</h4>
               <p class="member-role">Joint Event Head</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
         </div>
@@ -699,7 +708,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Vedant Siraskar</h4>
               <p class="member-role">Publicity head</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
           <!--Joint Publicity Head-->
@@ -718,7 +727,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Swapnil Patil </h4>
               <p class="member-role">Joint Publicity Head</p>
-              <p class="member-department">Computer Science and Data Science</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
           <!-- Joint Content Writer-->
@@ -823,7 +832,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Aditya pandey </h4>
               <p class="member-role">Executive Member</p>
-              <p class="member-department">Computer Science and Data Scince</p>
+              <p class="member-department">Data Science</p>
             </div>
           </div>
           <!--Associate Editor-->
@@ -842,7 +851,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Nishi Singh</h4>
               <p class="member-role">Associate Editor</p>
-              <p class="member-department">Computer Science and AIML</p>
+              <p class="member-department">AIML</p>
             </div>
           </div>
           <!--Member-->
@@ -861,7 +870,7 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
             <div class="member-info">
               <h4 class="member-name">Anuj Agrawal</h4>
               <p class="member-role">Member</p>
-              <p class="member-department">Computer Science and AIML</p>
+              <p class="member-department"> AIML</p>
             </div>
           </div>
           <!--Member-->
@@ -1162,34 +1171,52 @@ It provided a platform to showcase abilities, exchange knowledge, and build conn
         
 
         <!-- Column 4: Contact -->
-        <div class="footer-column">
-          <h3>Contact Us</h3>
-          <div class="contact-info">
-            <div class="contact-item">
-              <i data-lucide="map-pin"></i>
-              <span>RBU Campus, Computer Science Block</span>
-            </div>
-            <div class="contact-item">
-              <i data-lucide="mail"></i>
-              <a href="mailto:info@rbustudentchapter.acm.org">info@rbustudentchapter.acm.org</a>
-            </div>
-            <div class="contact-item">
-              <i data-lucide="phone"></i>
-              <a href="tel:+9198106 27267">+91 98106 27267</a>
-            </div>
-          </div>
+<div class="footer-column">
+  <h3>Contact Us</h3>
+  <div class="contact-info">
 
-         
+    <!-- Location (map pin + address clickable) -->
+    <a
+      href="https://www.bing.com/ck/a?!&&p=be99ce0b898b2e6a32ec76f1373b6cf3c00694025eed6e3acf0ba6a72f67d144JmltdHM9MTc2NzY1NzYwMA&ptn=3&ver=2&hsh=4&fclid=07b8bab7-1d8f-61ea-39a5-afc91c7d60e3&u=a1L21hcHM_Jm1lcGk9MH5-RW1iZWRkZWR-QWRkcmVzc19MaW5rJnR5PTE4JnE9UmFtZGVvYmFiYSUyMFVuaXZlcnNpdHklMjBOYWdwdXImc3M9eXBpZC5ZTjQwNzB4MTQ0Mjg0MTMzODE4OTA1MzM3MDQmcHBvaXM9MjEuMTc2MTk4OTU5MzUwNTg2Xzc5LjA1MDIzMTkzMzU5Mzc1X1JhbWRlb2JhYmElMjBVbml2ZXJzaXR5JTIwTmFncHVyX1lONDA3MHgxNDQyODQxMzM4MTg5MDUzMzcwNH4mY3A9MjEuMTc2MTk5fjc5LjA1MDIzMiZ2PTImc1Y9MSZGT1JNPU1QU1JQTA"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="contact-item"
+    >
+      <i data-lucide="map-pin"></i>
+      <span>RBU Campus, Computer Science Block</span>
+    </a>
 
-      <!-- Footer Bottom -->
-      <div class="footer-bottom">
-        <p>
-          &copy; 2026 <a href="#">ACM RBU Student Chapter</a>. All rights reserved.
-          Made with 💙 by the Web Team.
-        </p>
-      </div>
+    <!-- Email (UNCHANGED) -->
+    <div class="contact-item">
+      <i data-lucide="mail"></i>
+      <a href="mailto:info@rbustudentchapter.acm.org">
+        info@rbustudentchapter.acm.org
+      </a>
     </div>
-  </footer>
+
+    <!-- Phone (UNCHANGED) -->
+    <div class="contact-item">
+      <i data-lucide="phone"></i>
+      <a href="tel:+918668253437">+91 8668253437</a>
+    </div>
+
+  </div>
+</div>
+
+  <!-- COPYRIGHT (spans from Quick Links → Contact Us) -->
+  <div class="footer-bottom">
+    <p>
+      &copy; 2026 <a href="#">ACM RBU Student Chapter</a>.
+      All rights reserved. Made with 💙 by the Web Team.
+    </p>
+  </div>
+
+</div>
+
+
+
+</div>
+
 
   <!-- Back to Top Button -->
   <button class="back-to-top" aria-label="Back to top">

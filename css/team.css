@@ -63,7 +63,8 @@
 
 /* Other Rows - 4 columns */
 .team-grid.standard-row {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
 }
 
 /* Member Card */
