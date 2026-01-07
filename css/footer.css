@@ -34,7 +34,7 @@
 /* Footer Content */
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 3rem;
   padding-bottom: 3rem;
   border-bottom: 1px solid rgba(56, 189, 248, 0.2);
@@ -231,11 +231,12 @@
 
 .contact-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;   /* 👈 change from flex-start to center */
   gap: 0.75rem;
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
 }
+
 
 .contact-item i {
   color: var(--electric-blue);
@@ -292,3 +293,17 @@
     height: 60px;
   }
 }
+.footer-bottom {
+  grid-column: 2 / -1;   /* starts under Quick Links, ends after Contact Us */
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(56, 189, 248, 0.25);
+  text-align: center;
+  align-self: center;
+    opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+
+
+
